@@ -7,16 +7,40 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+    height: 100vh;
 }
 
 main {
     width: 375px;
     font-family: Manrope;
-    background-color: hsl(210, 46%, 95%);
-    padding-top: 60px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
 
     border: 2px solid black;
     border-radius: 12px;
+}
+
+#drawer {
+    width: 370px;
+    border-radius: 12px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#heading {
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 24px 0;
+}
+
+#description {
+    font-weight: 500;
+    font-size: 0.99em;
+    padding-bottom: 24px;
 }
