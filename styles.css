@@ -44,3 +44,13 @@ main {
     font-size: 0.99em;
     padding-bottom: 24px;
 }
+
+#avatar {
+    border-radius: 50%;
+    display: inline;
+    float: left;
+}
+
+#name {
+    display: inline;
+}
