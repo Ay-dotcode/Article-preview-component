@@ -54,3 +54,12 @@ main {
 #name {
     display: inline;
 }
+#date{
+    display: inline;
+}
+#share{
+    background-color: hsl(210, 46%, 95%);
+    padding: 8px;
+    border-radius: 50%;
+    color: hsl(217, 19%, 35%);
+}
