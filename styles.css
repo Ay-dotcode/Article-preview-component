@@ -3,3 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 375px;
+    font-family: Manrope;
+    background-color: hsl(210, 46%, 95%);
+    padding-top: 60px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    border: 2px solid black;
+    border-radius: 12px;
+}
