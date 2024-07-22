@@ -1,0 +1,28 @@
+#footer2{
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(212, 23%, 69%);
+    padding: 20px;
+    border-radius: 12px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+#shareText{
+    letter-spacing: 5px;
+}
+#shareBox2 {
+    background-color: hsl(212, 23%, 69%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#shareBtn2 {
+    width: 20px;
+}
