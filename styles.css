@@ -48,17 +48,17 @@ main {
 }
 
 #footer1 {
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 375px;
+    height: 70px;
     padding: 0 24px 20px;
 }
 
 #author {
     display: flex;
     align-items: center;
+    height: 70px;
 }
 
 #avatar {
@@ -87,6 +87,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    align-self: flex-end;
 }
 
 #shareBox1:hover {
