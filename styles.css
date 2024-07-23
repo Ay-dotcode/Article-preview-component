@@ -87,6 +87,10 @@ main {
     justify-content: center;
 }
 
+#shareBox1:hover {
+    background-color: hsl(212, 23%, 69%);
+}
+
 #shareBtn1 {
     width: 20px;
 }

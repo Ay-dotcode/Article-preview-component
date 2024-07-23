@@ -1,18 +1,27 @@
-#footer2{
+#footer2 {
     background-color: hsl(217, 19%, 35%);
-    color: hsl(212, 23%, 69%);
-    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 375px;
+    padding: 0 24px 0px;
+    display: none;
+    height: 70px;
     border-radius: 12px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    width: 375px;
+}
+
+#shareIcons{
     display: flex;
-    justify-content: space-between;
-    display: none;
+    gap: 16px;
+    align-items: center;
 }
-#shareText{
+#shareText {
     letter-spacing: 5px;
+    color: hsl(212, 23%, 69%);
 }
+
 #shareBox2 {
     background-color: hsl(212, 23%, 69%);
     border-radius: 50%;
@@ -23,6 +32,17 @@
     justify-content: center;
 }
 
+#shareBox2:hover {
+    background-color: hsl(210, 46%, 95%);
+}
+
 #shareBtn2 {
     width: 20px;
+}
+
+.aa {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 30%;
 }
