@@ -6,7 +6,6 @@ const shareBox2 = document.getElementById('shareBox2');
 function shareOn() {
     footer1.style.display = 'none';
     footer2.style.display = 'flex';
-    // footer1.style.transitionDuration
 }
 function shareOff() {
     footer2.style.display = 'none';
