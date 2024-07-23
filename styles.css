@@ -7,21 +7,23 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: hsl(210, 46%, 95%);
-    height: 100vh;
+
 }
 
 main {
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 12px;
+}
+
+#mainSect {
     width: 375px;
     font-family: Manrope;
     padding: 0px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
-    box-shadow: 2px 2px 5px black;
-    border-radius: 12px;
 }
 
 #drawer {
