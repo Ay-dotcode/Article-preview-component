@@ -1,1 +1,36 @@
-@media (min-width: 48em) {}
+@media (min-width: 48em) {
+    main {
+        display: flex;
+    }
+
+    #footer2 {
+        border-radius: 12px;
+        padding: 10px;
+        font-size: 13px;
+        width: 210px;
+        height: 50px;
+        position: absolute;
+        bottom: 95px;
+        left: 215px;
+        opacity: 95%;
+    }
+
+    #shareIcons {
+        gap: 10px;
+    }
+
+    #shareBox2 {
+        position: absolute;
+        top: 90px;
+        right: 75px;
+    }
+
+    #arrow {
+        background-color: hsl(217, 19%, 35%);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: 75px;
+        right: 35px;
+    }
+}

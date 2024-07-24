@@ -3,7 +3,7 @@
     justify-content: space-between;
     width: 375px;
     padding: 0px 24px 0px;
-    /* display: none; */
+    display: none;
     height: 70px;
     border-radius: 12px;
     border-top-left-radius: 0;
@@ -40,6 +40,10 @@
 
 #shareBtn2 {
     width: 20px;
+}
+
+#arrow {
+    display: none;
 }
 
 .aa {
