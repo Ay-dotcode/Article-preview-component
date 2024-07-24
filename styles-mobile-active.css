@@ -1,8 +1,6 @@
 #footer2 {
     background-color: hsl(217, 19%, 35%);
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 375px;
     padding: 0px 24px 0px;
     display: none;
@@ -10,13 +8,16 @@
     border-radius: 12px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    position: absolute;
+    bottom: 0;
 }
 
-#shareIcons{
+#shareIcons {
     display: flex;
     gap: 16px;
     align-items: center;
 }
+
 #shareText {
     letter-spacing: 5px;
     color: hsl(212, 23%, 69%);
@@ -30,6 +31,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    align-self: center;
 }
 
 #shareBox2:hover {

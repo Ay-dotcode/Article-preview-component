@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: hsl(210, 46%, 95%);
-
+    align-items: center;
 }
 
 main {
@@ -87,7 +87,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    align-self: flex-end;
+    align-self: center;
+    margin-top: 35px;
 }
 
 #shareBox1:hover {
