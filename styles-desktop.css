@@ -2,40 +2,57 @@
     main {
         display: flex;
     }
-    #drawer{
+
+    #drawer {
         border-radius: 12px;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
+    }
+
+    #mainSect {
+        width: 445px;
+    }
+
+    #footer1 {
+        width: 445px;
+        margin-bottom: 20px;
     }
 
     #footer2 {
         border-radius: 12px;
         padding: 10px;
         font-size: 13px;
-        width: 210px;
-        height: 50px;
+        width: 290px;
+        height: 60px;
         position: absolute;
-        bottom: 95px;
-        left: 215px;
+        justify-content: center;
+        bottom: 110px;
+        right: -80px;
         opacity: 95%;
+    }
+    #heading{
+        font-size: 1.3em;
     }
 
     #shareIcons {
-        gap: 10px;
+        gap: 13px;
     }
 
     #shareBox2 {
         position: absolute;
-        top: 90px;
-        right: 75px;
+        top: 95px;
+        right: 105px;
+    }
+    #shareText {
+        font-size: 1.2em;
     }
 
     #arrow {
         background-color: hsl(217, 19%, 35%);
-        width: 20px;
+        width: 30px;
         height: 20px;
         position: absolute;
-        bottom: 75px;
-        right: 35px;
+        bottom: 90px;
+        right: 30px;
     }
 }
