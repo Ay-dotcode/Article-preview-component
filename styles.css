@@ -19,6 +19,7 @@ main {
 }
 
 #mainSect {
+    position: relative;
     width: 375px;
     font-family: Manrope;
     padding: 0px 30px;
@@ -89,7 +90,7 @@ main {
     align-items: center;
     justify-content: center;
     align-self: center;
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 #shareBox1:hover {
