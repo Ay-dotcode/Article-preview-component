@@ -3,7 +3,7 @@
     justify-content: space-between;
     width: 375px;
     padding: 0px 24px 0px;
-    display: none;
+    /* display: none; */
     height: 70px;
     border-radius: 12px;
     border-top-left-radius: 0;
