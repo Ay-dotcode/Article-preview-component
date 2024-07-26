@@ -30,7 +30,8 @@
         right: -80px;
         opacity: 95%;
     }
-    #heading{
+
+    #heading {
         font-size: 1.3em;
     }
 
@@ -43,16 +44,20 @@
         top: 95px;
         right: 105px;
     }
+
     #shareText {
         font-size: 1.2em;
     }
 
     #arrow {
-        background-color: hsl(217, 19%, 35%);
-        width: 30px;
-        height: 20px;
         position: absolute;
-        bottom: 90px;
+        bottom: 80px;
         right: 30px;
+
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 30px solid hsl(217, 19%, 35%);
     }
 }
